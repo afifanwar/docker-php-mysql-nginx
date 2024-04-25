@@ -19,4 +19,4 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 # Copy custom php.ini file
 COPY ./docker/php.ini /usr/local/etc/php/
 
-WORKDIR /var/www/html
+WORKDIR /var/www
